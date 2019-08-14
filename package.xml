@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package>
+    <name>Flyt_OrderSender</name>
+    <version>0.1.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">Open Software License (OSL 3.0)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Track Magento e-commerce sales across any web or mobile platform.</summary>
+    <description>The Flyt App is the perfect option for any business owner. This link shortener, money maker, and sales tracker gives you the opportunity to enter any link to a service or product, post the link that we make for you, and when people purchase the product, you get paid.&#xD;
+&#xD;
+It is so easy, that you will wonder why you were doing it any other way.&#xD;
+&#xD;
+Create as many links as possible using this free app and manage them all from one place. You can track your sales worldwide from any digital media platform. That allows you to track your advertising efforts on Facebook, Twitter, Google, and more.</description>
+    <notes>This is the stable version release.</notes>
+    <authors><author><name>admin</name><user>admin</user><email>plunagariya123@gmail.com</email></author></authors>
+    <date>2016-09-13</date>
+    <time>13:18:40</time>
+    <contents><target name="magecommunity"><dir name="Flyt"><dir name="OrderSender"><dir name="Helper"><file name="Data.php" hash="d76ddb05ff1d4db267f96dd015e19753"/></dir><dir name="Model"><file name="Observer.php" hash="bcac8fdb86dd90b569d10860348feccf"/><dir name="Sales"><file name="Order.php" hash="1753302790876af7c0b4518d41f91a87"/></dir></dir><dir name="etc"><file name="adminhtml.xml" hash="a2d0b92954b1ac76c71964d76e1883d1"/><file name="config.xml" hash="403ba9e649831acf6ae5ffae6710e423"/><file name="system.xml" hash="d7e6b188abaf1aab07848f2ab9f87e9e"/></dir></dir></dir></target><target name="mageetc"><dir name="."><file name="Flyt_OrderSender.xml" hash=""/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.3.0</min><max>5.6.0</max></php></required></dependencies>
+</package>
