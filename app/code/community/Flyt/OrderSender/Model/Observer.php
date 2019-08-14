@@ -35,7 +35,7 @@ Class Flyt_OrderSender_Model_Observer{
 		$user_id = Mage::getStoreConfig('ordersender_config/api_config/user_id');
 		$api_key = Mage::getStoreConfig('ordersender_config/api_config/api_key');
 		//$url = Mage::getStoreConfig('apiconfig/sales_api/sales_info_url');
-		$url = 'https://dt-flyt-magento-plugin.azurewebsites.net/apis/putSalesOrder.php';
+		$url = 'https://magento.flyt.it/apis/putSalesOrder.php';
 		
 		$order = $observer->getOrder();
 		//print_r($order->getData());exit;
@@ -80,7 +80,7 @@ Class Flyt_OrderSender_Model_Observer{
 		$user_id = Mage::getStoreConfig('ordersender_config/api_config/user_id');
 		$api_key = Mage::getStoreConfig('ordersender_config/api_config/api_key');
 		//$url = Mage::getStoreConfig('apiconfig/sales_api/sales_info_url');
-		$url = 'https://dt-flyt-magento-plugin.azurewebsites.net/apis/changeOrderStatus.php';
+		$url = 'https://magento.flyt.it/apis/changeOrderStatus.php';
 		
 		$order = $observer->getOrder();
 		$orderId = $order->getId();
