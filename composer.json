@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/Flyt_OrderSender",
+    "name": "openmage-module-fostering\/flyt_ordersender",
     "type": "magento-module",
-    "license": "Open-Software-License-(OSL-3.0)",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "Track Magento e-commerce sales across any web or mobile platform.",
     "authors": [
